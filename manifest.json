@@ -1,0 +1,14 @@
+{
+    "name":"chess_hack_byTitiloxx",
+    "manifest_version":2,
+    "version":"1.0",
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["inject.js"]
+      }
+    ],
+    "web_accessible_resources": [
+      "content.js"
+    ]
+  }
