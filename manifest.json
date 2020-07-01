@@ -5,7 +5,8 @@
     "content_scripts": [
       {
         "matches": ["https://www.chess.com/analysis/game/live/*"],
-        "js": ["inject.js"]
+        "js": ["inject.js"],
+        "run_at": "document_end"
       }
     ],
     "web_accessible_resources": [
